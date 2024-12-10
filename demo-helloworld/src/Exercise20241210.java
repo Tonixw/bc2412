@@ -37,6 +37,13 @@ public class Exercise20241210 {
     // (2) Java Virtual Machine (JVM) -> convert class file to machine code -> execute machine code 
 
 
+    long l9 = maxByte + 3;
+    byte b6 = 60;
+    byte b7 = 70;
+    int s6 = b6 + b7;
+    System.out.println(s6);
+
+
   }
 }
   

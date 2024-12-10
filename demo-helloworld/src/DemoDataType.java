@@ -65,6 +65,8 @@ public class DemoDataType {
     // Step 4 : assign 1 (int value) to double type varible (conveert 1 to 1.0)
     System.out.println(x3); // 1.0
 
+    double x8 = 3 / 2.0;
+    System.out.println(x8);
     double x4 = 3.0 / 2;
     // Step 1: 3 -> double value, 2 -> int value
     // Step 2: double value / int value -> double value
@@ -72,10 +74,11 @@ public class DemoDataType {
     // Step 4 : assign 1.5 (double value) to double type varible
     System.out.println(x4); // 1.5
 
+
     // ! int x5 = 3.0 / 2;
     // Step 1: 3.0 -> double value, 2 -> int value
     // Step 2: double value / int value -> double value
-    // Step 3 : 3.0 / 2 -> 1
+    // Step 3 : 3.0 / 2 -> 1.5
     // Step 4 : assign 1.5 (double value) to int type varible (downcasting)
     //Java not allow assign a higher level value to a lower level type of variable
 
