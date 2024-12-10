@@ -5,9 +5,17 @@ public class Exercise20241210 {
     int quantityOfApple = 3;
     int quantityOfOrange = 4;
 
-    double x = 7.3 * 3 + 6.5 * 4;
+    double totalAmount = priceForApple * quantityOfApple + priceForOrange * quantityOfOrange;
 
-    System.out.println(x);
+    System.out.println(totalAmount);
+
+    int mathScore = 73;
+    int englishScore = 60;
+    int historyScore = 61;
+
+    double averageScore = (mathScore + englishScore + historyScore) / 3.0;
+
+    System.out.println(averageScore);
 
   }
 }
