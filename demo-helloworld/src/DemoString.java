@@ -27,6 +27,12 @@ public class DemoString {
     //System.out.println(password.charAt(-1)); // error
     //System.out.println(password.cahrAt(9)); // error
 
+    // Problem: print the last character of String
+    String password2 = "helloworld";
+    char lastChar = password2.charAt(password2.length()-1);
+    System.out.println(lastChar); // d
+
+
     // equals() -> true
     String s1 = "abc";
     String s2 = "abc";
@@ -43,7 +49,20 @@ public class DemoString {
     int result4 = password.length();
     System.out.println(result4); // 9, the length of String value
 
-    
+    // Empty String
+    String emptyString = "";
+    System.out.println(emptyString.length()); // 0
+    boolean isStringEmpty = "".equals(emptyString); // Asking if emptyString equals to ""
+    System.out.println(isStringEmpty);
+
+    String s = "hello";
+    System.out.println("hello".equals(s)); // Asking if s equals to "hello"
+    System.out.println("hello".length()); // 5
+
+    System.out.println("hello".charAt(2)); // l
+
+    // 'c'.charAt() // Primitive has no method (tool)
+
 
   }
 }
