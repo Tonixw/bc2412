@@ -1,3 +1,4 @@
+package ClassEx;
 public class BrewingCoffee {
   private String method;
   private String brewingType;
