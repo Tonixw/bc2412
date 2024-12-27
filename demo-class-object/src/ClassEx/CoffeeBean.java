@@ -1,3 +1,4 @@
+package ClassEx;
 public class CoffeeBean{
   private String name;
   private String variety;
@@ -31,5 +32,5 @@ public class CoffeeBean{
   public int getMonthOfHarvest() {
     return this.monthOfHarvest;
   }
-  
+
 }

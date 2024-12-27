@@ -191,14 +191,18 @@ public class LoopExercise {
 
     // 17. Add value 0.1 to each of value in array arr16
     // Print: [0.3, 0.4, 0.6]
-    for (int i = 0; i < arr16.length; i++) {
-      arr16[i] +＝ 1;
-    }System.out.println(narr16);
+    // for (int i = 0; i < arr16.length; i++) {
 
     // 18. Count the number of target strings in the String[]
     String[] arr18 = new String[] {"Steve", "Tommy", "Katie", "Tommy", "Lydia"};
     String target = "Tommy";
     // Print "count name=2"
+    {int count1 = 0;
+    for (int j = 0; j < arr18.length; j++) {
+      if (arr18[j] == target)
+      count1++;
+    }
+    System.out.println(count1);
 
     // 19. swap the max digit and min digit
     // Assumption: each digit value appear once in the String
@@ -234,6 +238,15 @@ public class LoopExercise {
     // Print "longest=programming"
     String[] arr20 =
         new String[] {"python", "array", "programming", "java", "bootcamp"};
+        int maxLength = 0;
+        String largest = "";
+        for (int i = 0; i < arr20.length; i++){
+          if (arr20[i].length()> maxLength)
+          maxLength = arr20[i].length(); 
+          largest = arr20[i];
+  }
+        System.out.println(largest);
 
   }
+}
 }

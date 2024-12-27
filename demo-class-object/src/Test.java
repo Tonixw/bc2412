@@ -35,6 +35,13 @@ public class Test {
         // vincent, 18, vincent@gmail.com
         System.out.println(p.getName() + ", " + p.getAge() + ", " + p.getEmail());
     }
+
+    // String s2 = p2;
+    // String s3 = new Integer(23)
+    
+
+
+
     String s1 = "hello";
     String[] strings = new String[] {s1, "world"};
 
