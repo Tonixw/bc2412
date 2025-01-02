@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class DemoString {
   public static void main(String[] args) {
     String s1 = "hello";
@@ -46,6 +48,11 @@ public class DemoString {
 
     // charAt() -> Find char by index
     // indexOf() -> Find index by char
+
+    String sentence = "hello world";
+    String[] subSentences = sentence.split(" ");
+    System.out.println(Arrays.toString(subSentences)); // [hello, world]
+
 
   }
   

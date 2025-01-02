@@ -25,8 +25,8 @@ public class LoanCalculator {
   public static double totalInterestAfterYears2(double principle,
       double annualInterestRate, int numOfYears) {
     return BigDecimal.valueOf(principle)
-        .multiply(BigDecimal.valueOf(
-            Math.pow(1 + annualInterestRate / 100, numOfYears)))
+        .multiply(BigDecimal
+            .valueOf(Math.pow(1 + annualInterestRate / 100, numOfYears)))
         .subtract(BigDecimal.valueOf(principle)).doubleValue();
   }
 

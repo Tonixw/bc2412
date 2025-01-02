@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class String1 {
   private char[] arr;
   // constructor
@@ -26,5 +28,7 @@ public class String1 {
     System.out.println(str.charAt(1)); // b
     System.out.println(str.length()); // 3
     System.out.println(str.startWith('a')); // true
+
+
   }
 }
