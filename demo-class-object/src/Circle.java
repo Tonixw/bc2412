@@ -40,13 +40,13 @@ public class Circle {
 
   public static void main(String[] args) {
     // area
-    Circle c1 = new Circle(3.0);
+    Circle2 c1 = new Circle2(3.0);
     // Presentation 
     System.out.println(c1.calculateArea());
     // BigDecimal
 
     // Formula
-    System.out.print(Circle.calculateArea2(3.0));
+    System.out.print(Circle2.calculateArea2(3.0));
   }
   
   

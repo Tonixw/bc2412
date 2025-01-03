@@ -17,5 +17,12 @@ public class Deck {
     Card.SUITES[0] = 'X';
     System.out.println(deck);
   }
-  
+    Card card = new Card('A', 'S');
+    Card card2 = new Card('A', 'S');
+
+    if ( card.equals(new Card('A', 's'))) {
+      System.out.println("same");
+    }
+
+
 }
