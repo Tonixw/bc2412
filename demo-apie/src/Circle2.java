@@ -27,6 +27,13 @@ public class Circle2 extends Shape { // Parent Class: color
         .doubleValue();
   }
 
+  public static double area2(double radius) {
+    return BigDecimal.valueOf(radius)
+        .multiply(BigDecimal.valueOf(radius))
+        .multiply(BigDecimal.valueOf(Math.PI))
+        .doubleValue();
+  }
+
   @Override
   public String toString() {
     return"circle["
@@ -42,7 +49,9 @@ public class Circle2 extends Shape { // Parent Class: color
     // then the default constructor will be no longer exists
     Circle2 c11 = new Circle2('R', 3.1);
     System.out.println("This is a " + c11.getColor() + " circle and the radius is " + c11.area());
+    Circle2.area2(4.3);
 
+    int x = 
     System.out.println(c11);
   }
 
